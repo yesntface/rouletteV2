@@ -12,4 +12,8 @@ export class RouletteComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  clicked() {
+    console.log('check');
+  }
 }
